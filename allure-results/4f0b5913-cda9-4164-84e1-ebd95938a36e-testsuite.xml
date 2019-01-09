@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546889108817' stop='1546889122070'>
+    <name>Regresion Suite</name>
+    <title>Regresion Suite</title>
+    <test-cases>
+        <test-case start='1546889116608' status='passed' stop='1546889122065'>
+            <name>should able to make a reservation</name>
+            <title>should able to make a reservation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

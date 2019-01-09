@@ -1,0 +1,20 @@
+{
+    "appData" : {
+        "url" : "https://cybertek-reservation-qa.herokuapp.com/",
+        "teamMemberEmail" : "nshearsby7w@uiuc.edu ",
+        "teamMemberPassword" : "lorettebradnum",
+        "title" : "bookit"
+    },
+
+    "reservation" : {
+        "huntForSpotTitle" : "hunt for spot",
+        "date" : "January 11, 2019",
+        "bookingStatus" : "yey, you got it",
+        "VAtitle" : "VA",
+        "freeSpotsTitle" : "free spots"
+        
+        
+    }
+
+
+}

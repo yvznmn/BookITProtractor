@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546887383843' stop='1546887384083'>
+    <name>Regresion Suite</name>
+    <title>Regresion Suite</title>
+    <test-cases>
+        <test-case start='1546887384046' status='failed' stop='1546887384079'>
+            <name>should able to make a reservation</name>
+            <title>should able to make a reservation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at runWaitForAngularScript.then (C:\Users\PC USER\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+                    at ManagedPromise.invokeCallback_ (C:\Users\PC USER\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\PC USER\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\PC USER\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\PC USER\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\PC USER\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:189:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\PC USER\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\PC USER\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\PC USER\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at new loginTheSystem (C:\Users\PC USER\Desktop\BookIT\Utilities\testBase.js:8:21)
+                    at Object.&lt;anonymous> (C:\Users\PC USER\Desktop\BookIT\Utilities\testBase.js:14:18)
+                    at Module._compile (module.js:653:30)
+                    at Object.Module._extensions..js (module.js:664:10)
+                    at Module.load (module.js:566:32)
+                    at tryModuleLoad (module.js:506:12)
+                    at Function.Module._load (module.js:498:3)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

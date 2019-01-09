@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547003162658' stop='1547003187548'>
+    <name>Regresion Suite</name>
+    <title>Regresion Suite</title>
+    <test-cases>
+        <test-case start='1547003169779' status='passed' stop='1547003169829'>
+            <name>should verify the title</name>
+            <title>should verify the title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547003169829' status='passed' stop='1547003174743'>
+            <name>should successfully logIn</name>
+            <title>should successfully logIn</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547003174743' status='passed' stop='1547003177039'>
+            <name>should be able to click hunt link</name>
+            <title>should be able to click hunt link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547003177039' status='passed' stop='1547003187545'>
+            <name>should be able to enter the valid dates and see the options available</name>
+            <title>should be able to enter the valid dates and see the options available</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
